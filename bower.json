@@ -1,0 +1,24 @@
+{
+  "name": "ng-codicamp-lab",
+  "description": "simple angular project",
+  "main": "dist",
+  "authors": [
+    "Stan Cyaa"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "simple",
+    "administration"
+  ],
+  "homepage": "http://codicamp.org",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  },
+  "devDependencies": {
+    "satellizer": "^0.15.4",
+    "ngstorage": "^0.3.11",
+    "ng-notify": "^0.8.0"
+  }
+}

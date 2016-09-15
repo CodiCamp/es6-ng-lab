@@ -1,0 +1,10 @@
+<div class="login-page">
+    <div class="form">
+        <form name="login-form" class="login-form" ng-submit="viewModel.func.login()">
+            <input type="text" placeholder="username" ng-model="viewModel.username" required />
+            <input type="password" placeholder="password" ng-model="viewModel.password" required />
+            <button type="submit" class="button">login</button>
+        </form>
+        <a href="javascript:;" ng-if="viewModel.flags.showRegisteredButton == true" ui-sref="register" class="button" title="register">register</a>
+    </div>
+</div>
